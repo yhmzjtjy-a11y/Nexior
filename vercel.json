@@ -3,7 +3,6 @@
   "buildCommand": "npm run build",
   "installCommand": "npm ci",
   "routes": [
-    { "src": "/ads.txt", "dest": "/ads.txt" },
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
