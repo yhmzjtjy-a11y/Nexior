@@ -746,7 +746,18 @@ export default defineComponent({
 
       .job {
         font-size: 14px;
-        color: var(--el-text-color-secondary);
+        color: var(--el-text-color-secondary);<template>
+  <div style="padding:20px;">
+    <h1>我的网站</h1>
+    <p>记录前端学习笔记</p>
+
+    <ul>
+      <li>
+        <NuxtLink to="/article1">如何学习前端开发</NuxtLink>
+      </li>
+    </ul>
+  </div>
+</template>
       }
     }
   }
